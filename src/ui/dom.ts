@@ -23,6 +23,9 @@ export function h<K extends keyof HTMLElementTagNameMap>(tag: K, attrs: Attrs | 
 
 export function fmt(v: number, digits = 3): string {
   if (!Number.isFinite(v)) return '';
+  // Floating-point residue (the control group's mean ΔΔCt comes out as -8.9e-16, not 0).
+  // p-values go through formatP, so nothing meaningful is this small here.
+  if (Math.abs(v) < 1e-12) v = 0;
   if (v !== 0 && (Math.abs(v) < 1e-3 || Math.abs(v) >= 1e5)) return v.toExponential(2);
   return v.toFixed(digits);
 }
