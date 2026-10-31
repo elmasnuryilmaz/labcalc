@@ -94,10 +94,23 @@ residual degrees of freedom.</p>
   2<sup>−ΔΔCT</sup> method. <i>Methods</i> 25(4):402–408. doi:10.1006/meth.2001.1262</li>
 <li>Pfaffl MW (2001). A new mathematical model for relative quantification in real-time RT-PCR.
   <i>Nucleic Acids Research</i> 29(9):e45. doi:10.1093/nar/29.9.e45</li>
+<li>Vandesompele J, De Preter K, Pattyn F, et al. (2002). Accurate normalization of real-time quantitative RT-PCR data by
+  geometric averaging of multiple internal control genes. <i>Genome Biology</i> 3(7):research0034.
+  doi:10.1186/gb-2002-3-7-research0034</li>
+<li>Bustin SA, Benes V, Garson JA, et al. (2009). The MIQE guidelines: minimum information for publication of quantitative
+  real-time PCR experiments. <i>Clinical Chemistry</i> 55(4):611–622. doi:10.1373/clinchem.2008.112797</li>
+<li>Welch BL (1947). The generalization of ‘Student's’ problem when several different population variances are involved.
+  <i>Biometrika</i> 34(1–2):28–35. doi:10.1093/biomet/34.1-2.28</li>
+<li>Kramer CY (1956). Extension of multiple range tests to group means with unequal numbers of replications.
+  <i>Biometrics</i> 12(3):307–310. doi:10.2307/3001469</li>
+<li>Dunnett CW (1955). A multiple comparison procedure for comparing several treatments with a control.
+  <i>Journal of the American Statistical Association</i> 50(272):1096–1121. doi:10.1080/01621459.1955.10501294</li>
+<li>Levenberg K (1944). A method for the solution of certain non-linear problems in least squares.
+  <i>Quarterly of Applied Mathematics</i> 2(2):164–168. doi:10.1090/qam/10666</li>
+<li>Marquardt DW (1963). An algorithm for least-squares estimation of nonlinear parameters.
+  <i>Journal of the Society for Industrial and Applied Mathematics</i> 11(2):431–441. doi:10.1137/0111030</li>
 </ol>
-<p class="hint">Statistical procedures (Welch's t-test, one-way ANOVA, Tukey–Kramer HSD, Dunnett's test,
-Levenberg–Marquardt least squares) are standard and are implemented as described above; their numerical output is
-validated against SciPy.</p>
+<p class="hint">The numerical output of every procedure is validated against SciPy.</p>
 </section>`;
 
 const ABOUT_HTML = `

@@ -7,7 +7,7 @@ Browser-based calculators for two everyday wet-lab analyses:
 
 Nothing to install and nothing to upload: open the page, load your file, read the results.
 
-**Live app:** `https://elmasnuryilmaz.github.io/labcalc/` (available once GitHub Pages is enabled for this repository, see [Deployment](#deployment)).
+**Live app:** <https://elmasnuryilmaz.github.io/labcalc/>
 
 ## Privacy: your data never leave your browser
 
@@ -100,6 +100,21 @@ The **Methods** tab in the app gives every formula. In short:
    2<sup>−ΔΔCT</sup> method. *Methods* 25(4):402–408. doi:[10.1006/meth.2001.1262](https://doi.org/10.1006/meth.2001.1262)
 2. Pfaffl MW (2001). A new mathematical model for relative quantification in real-time RT-PCR. *Nucleic Acids Research*
    29(9):e45. doi:[10.1093/nar/29.9.e45](https://doi.org/10.1093/nar/29.9.e45)
+3. Vandesompele J, De Preter K, Pattyn F, et al. (2002). Accurate normalization of real-time quantitative RT-PCR data by
+   geometric averaging of multiple internal control genes. *Genome Biology* 3(7):research0034.
+   doi:[10.1186/gb-2002-3-7-research0034](https://doi.org/10.1186/gb-2002-3-7-research0034)
+4. Bustin SA, Benes V, Garson JA, et al. (2009). The MIQE guidelines: minimum information for publication of quantitative
+   real-time PCR experiments. *Clinical Chemistry* 55(4):611–622. doi:[10.1373/clinchem.2008.112797](https://doi.org/10.1373/clinchem.2008.112797)
+5. Welch BL (1947). The generalization of 'Student's' problem when several different population variances are involved.
+   *Biometrika* 34(1–2):28–35. doi:[10.1093/biomet/34.1-2.28](https://doi.org/10.1093/biomet/34.1-2.28)
+6. Kramer CY (1956). Extension of multiple range tests to group means with unequal numbers of replications.
+   *Biometrics* 12(3):307–310. doi:[10.2307/3001469](https://doi.org/10.2307/3001469)
+7. Dunnett CW (1955). A multiple comparison procedure for comparing several treatments with a control.
+   *Journal of the American Statistical Association* 50(272):1096–1121. doi:[10.1080/01621459.1955.10501294](https://doi.org/10.1080/01621459.1955.10501294)
+8. Levenberg K (1944). A method for the solution of certain non-linear problems in least squares.
+   *Quarterly of Applied Mathematics* 2(2):164–168. doi:[10.1090/qam/10666](https://doi.org/10.1090/qam/10666)
+9. Marquardt DW (1963). An algorithm for least-squares estimation of nonlinear parameters.
+   *Journal of the Society for Industrial and Applied Mathematics* 11(2):431–441. doi:[10.1137/0111030](https://doi.org/10.1137/0111030)
 
 ## Validation
 
@@ -178,9 +193,7 @@ node scripts/screenshots.mjs
 ## Deployment
 
 `.github/workflows/ci.yml` runs the tests and the production build on every push and pull request.
-`.github/workflows/pages.yml` builds the site and publishes it to GitHub Pages on every push to `main`. To turn it on,
-go to *Settings → Pages* and choose *GitHub Actions* as the source. GitHub Pages for a **private** repository requires a
-paid GitHub plan; on a free plan the repository has to be public for the site to go live.
+`.github/workflows/pages.yml` builds the site and publishes it to GitHub Pages on every push to `main`.
 
 ## Limitations
 
@@ -194,3 +207,7 @@ paid GitHub plan; on a free plan the repository has to be public for the site to
 TypeScript, Vite, no UI framework. Distribution functions partly from [jStat](https://github.com/jstat/jstat)
 (studentized range, normal CDF, starting value for the t quantile); the incomplete beta function, Dunnett integral and
 Levenberg–Marquardt fit are implemented in `src/lib`. Tests use Vitest.
+
+## License
+
+[MIT](LICENSE) © 2026 Elmasnur Yılmaz
