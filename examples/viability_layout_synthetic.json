@@ -1,0 +1,504 @@
+{
+ "format": "labcalc-plate-layout",
+ "version": 1,
+ "unit": "µM",
+ "note": "SYNTHETIC example layout",
+ "wells": [
+  {
+   "pos": "A1",
+   "role": "blank"
+  },
+  {
+   "pos": "A2",
+   "role": "control"
+  },
+  {
+   "pos": "A3",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 100.0
+  },
+  {
+   "pos": "A4",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 33.333333333333336
+  },
+  {
+   "pos": "A5",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 11.11111111111111
+  },
+  {
+   "pos": "A6",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 3.7037037037037037
+  },
+  {
+   "pos": "A7",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 1.2345679012345678
+  },
+  {
+   "pos": "A8",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 0.411522633744856
+  },
+  {
+   "pos": "A9",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 0.13717421124828533
+  },
+  {
+   "pos": "A10",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 0.04572473708276177
+  },
+  {
+   "pos": "A11",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 0.015241579027587259
+  },
+  {
+   "pos": "B1",
+   "role": "blank"
+  },
+  {
+   "pos": "B2",
+   "role": "control"
+  },
+  {
+   "pos": "B3",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 100.0
+  },
+  {
+   "pos": "B4",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 33.333333333333336
+  },
+  {
+   "pos": "B5",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 11.11111111111111
+  },
+  {
+   "pos": "B6",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 3.7037037037037037
+  },
+  {
+   "pos": "B7",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 1.2345679012345678
+  },
+  {
+   "pos": "B8",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 0.411522633744856
+  },
+  {
+   "pos": "B9",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 0.13717421124828533
+  },
+  {
+   "pos": "B10",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 0.04572473708276177
+  },
+  {
+   "pos": "B11",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 0.015241579027587259
+  },
+  {
+   "pos": "C1",
+   "role": "blank"
+  },
+  {
+   "pos": "C2",
+   "role": "control"
+  },
+  {
+   "pos": "C3",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 100.0
+  },
+  {
+   "pos": "C4",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 33.333333333333336
+  },
+  {
+   "pos": "C5",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 11.11111111111111
+  },
+  {
+   "pos": "C6",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 3.7037037037037037
+  },
+  {
+   "pos": "C7",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 1.2345679012345678
+  },
+  {
+   "pos": "C8",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 0.411522633744856
+  },
+  {
+   "pos": "C9",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 0.13717421124828533
+  },
+  {
+   "pos": "C10",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 0.04572473708276177
+  },
+  {
+   "pos": "C11",
+   "role": "compound",
+   "compound": "Cmpd-A",
+   "conc": 0.015241579027587259
+  },
+  {
+   "pos": "D1",
+   "role": "blank"
+  },
+  {
+   "pos": "D2",
+   "role": "control"
+  },
+  {
+   "pos": "D3",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 100.0
+  },
+  {
+   "pos": "D4",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 33.333333333333336
+  },
+  {
+   "pos": "D5",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 11.11111111111111
+  },
+  {
+   "pos": "D6",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 3.7037037037037037
+  },
+  {
+   "pos": "D7",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 1.2345679012345678
+  },
+  {
+   "pos": "D8",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 0.411522633744856
+  },
+  {
+   "pos": "D9",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 0.13717421124828533
+  },
+  {
+   "pos": "D10",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 0.04572473708276177
+  },
+  {
+   "pos": "D11",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 0.015241579027587259
+  },
+  {
+   "pos": "E1",
+   "role": "blank"
+  },
+  {
+   "pos": "E2",
+   "role": "control"
+  },
+  {
+   "pos": "E3",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 100.0
+  },
+  {
+   "pos": "E4",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 33.333333333333336
+  },
+  {
+   "pos": "E5",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 11.11111111111111
+  },
+  {
+   "pos": "E6",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 3.7037037037037037
+  },
+  {
+   "pos": "E7",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 1.2345679012345678
+  },
+  {
+   "pos": "E8",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 0.411522633744856
+  },
+  {
+   "pos": "E9",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 0.13717421124828533
+  },
+  {
+   "pos": "E10",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 0.04572473708276177
+  },
+  {
+   "pos": "E11",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 0.015241579027587259
+  },
+  {
+   "pos": "F1",
+   "role": "blank"
+  },
+  {
+   "pos": "F2",
+   "role": "control"
+  },
+  {
+   "pos": "F3",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 100.0
+  },
+  {
+   "pos": "F4",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 33.333333333333336
+  },
+  {
+   "pos": "F5",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 11.11111111111111
+  },
+  {
+   "pos": "F6",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 3.7037037037037037
+  },
+  {
+   "pos": "F7",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 1.2345679012345678
+  },
+  {
+   "pos": "F8",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 0.411522633744856
+  },
+  {
+   "pos": "F9",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 0.13717421124828533
+  },
+  {
+   "pos": "F10",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 0.04572473708276177
+  },
+  {
+   "pos": "F11",
+   "role": "compound",
+   "compound": "Cmpd-B",
+   "conc": 0.015241579027587259
+  },
+  {
+   "pos": "G1",
+   "role": "blank"
+  },
+  {
+   "pos": "G2",
+   "role": "control"
+  },
+  {
+   "pos": "G3",
+   "role": "compound",
+   "compound": "Cmpd-C",
+   "conc": 100.0
+  },
+  {
+   "pos": "G4",
+   "role": "compound",
+   "compound": "Cmpd-C",
+   "conc": 33.333333333333336
+  },
+  {
+   "pos": "G5",
+   "role": "compound",
+   "compound": "Cmpd-C",
+   "conc": 11.11111111111111
+  },
+  {
+   "pos": "G6",
+   "role": "compound",
+   "compound": "Cmpd-C",
+   "conc": 3.7037037037037037
+  },
+  {
+   "pos": "G7",
+   "role": "compound",
+   "compound": "Cmpd-C",
+   "conc": 1.2345679012345678
+  },
+  {
+   "pos": "G8",
+   "role": "compound",
+   "compound": "Cmpd-C",
+   "conc": 0.411522633744856
+  },
+  {
+   "pos": "G9",
+   "role": "compound",
+   "compound": "Cmpd-C",
+   "conc": 0.13717421124828533
+  },
+  {
+   "pos": "G10",
+   "role": "compound",
+   "compound": "Cmpd-C",
+   "conc": 0.04572473708276177
+  },
+  {
+   "pos": "G11",
+   "role": "compound",
+   "compound": "Cmpd-C",
+   "conc": 0.015241579027587259
+  },
+  {
+   "pos": "H1",
+   "role": "blank"
+  },
+  {
+   "pos": "H2",
+   "role": "control"
+  },
+  {
+   "pos": "H3",
+   "role": "compound",
+   "compound": "Cmpd-C",
+   "conc": 100.0
+  },
+  {
+   "pos": "H4",
+   "role": "compound",
+   "compound": "Cmpd-C",
+   "conc": 33.333333333333336
+  },
+  {
+   "pos": "H5",
+   "role": "compound",
+   "compound": "Cmpd-C",
+   "conc": 11.11111111111111
+  },
+  {
+   "pos": "H6",
+   "role": "compound",
+   "compound": "Cmpd-C",
+   "conc": 3.7037037037037037
+  },
+  {
+   "pos": "H7",
+   "role": "compound",
+   "compound": "Cmpd-C",
+   "conc": 1.2345679012345678
+  },
+  {
+   "pos": "H8",
+   "role": "compound",
+   "compound": "Cmpd-C",
+   "conc": 0.411522633744856
+  },
+  {
+   "pos": "H9",
+   "role": "compound",
+   "compound": "Cmpd-C",
+   "conc": 0.13717421124828533
+  },
+  {
+   "pos": "H10",
+   "role": "compound",
+   "compound": "Cmpd-C",
+   "conc": 0.04572473708276177
+  },
+  {
+   "pos": "H11",
+   "role": "compound",
+   "compound": "Cmpd-C",
+   "conc": 0.015241579027587259
+  }
+ ]
+}
