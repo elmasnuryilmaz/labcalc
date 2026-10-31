@@ -27,7 +27,7 @@ describe('descriptive statistics', () => {
 });
 
 describe('Welch t-test vs scipy.stats.ttest_ind(equal_var=False)', () => {
-  it.each(ref.welch.map((c: unknown, i: number) => [i, c]))('case %i', (_i, c: any) => {
+  it.each(ref.welch.map((c: unknown, i: number) => [i, c]) as [number, any][])('case %i', (_i, c) => {
     const r = welchTTest(c.a, c.b);
     close(r.t, c.t, 1e-10, 0, 't');
     close(r.df, c.df, 1e-10, 0, 'df');
@@ -36,7 +36,7 @@ describe('Welch t-test vs scipy.stats.ttest_ind(equal_var=False)', () => {
 });
 
 describe('ANOVA, Tukey HSD and Dunnett vs SciPy', () => {
-  it.each(ref.multi.map((c: unknown, i: number) => [i, c]))('case %i', (_i, c: any) => {
+  it.each(ref.multi.map((c: unknown, i: number) => [i, c]) as [number, any][])('case %i', (_i, c) => {
     const a = oneWayAnova(c.groups);
     close(a.f, c.anova.f, 1e-10, 0, 'F');
     expect(a.dfBetween).toBe(c.anova.df1);

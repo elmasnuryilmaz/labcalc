@@ -45,9 +45,6 @@ export function logistic4(x: number, p: FitParams): number {
   return p.bottom + (p.top - p.bottom) / (1 + Math.pow(10, e));
 }
 
-function toArr(p: FitParams): number[] {
-  return [p.bottom, p.top, p.logIC50, p.hill];
-}
 function fromArr(a: number[]): FitParams {
   return { bottom: a[0], top: a[1], logIC50: a[2], hill: a[3] };
 }

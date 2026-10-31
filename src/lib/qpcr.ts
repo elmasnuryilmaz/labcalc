@@ -143,7 +143,7 @@ export function analyzeQpcr(
       continue;
     }
     if (!Number.isFinite(w.ct)) {
-      qc.push({ level: 'warn', sample: w.sample, gene: w.gene, wells: [label], message: `Undetermined or missing Ct ("${w.ctRaw}"); well ignored.` });
+      qc.push({ level: 'warn', sample: w.sample, gene: w.gene, wells: [label], message: w.ctRaw ? `Undetermined Ct ("${w.ctRaw}"); well ignored.` : 'No Ct value (no amplification or missing); well ignored.' });
       continue;
     }
     if (w.ct > settings.ctMax)

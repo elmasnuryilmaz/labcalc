@@ -98,7 +98,7 @@ describe('ddCt pipeline vs independent NumPy/SciPy implementation', () => {
     const res = analyzeQpcr(p.wells, samples, genes, { ...defaultSettings, controlGroup: 'Ctrl' });
     const has = (lvl: string, s: string, g: string, txt: string) => res.qc.some((f) => f.level === lvl && f.sample === s && f.gene === g && f.message.includes(txt));
     expect(has('error', 'TrtB2', 'IL6', 'Technical replicate SD')).toBe(true);
-    expect(has('warn', 'TrtA3', 'BCL2', 'Undetermined')).toBe(true);
+    expect(has('warn', 'TrtA3', 'BCL2', 'No Ct value')).toBe(true);
     expect(has('warn', 'NTC', 'GAPDH', 'NTC amplified')).toBe(true);
     expect(res.qc.filter((f) => f.message.includes('NTC')).length).toBe(1);
   });

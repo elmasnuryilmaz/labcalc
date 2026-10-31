@@ -1,4 +1,5 @@
-import { defineConfig, type Plugin } from 'vite';
+import { defineConfig } from 'vitest/config';
+import type { Plugin } from 'vite';
 
 // Strict Content-Security-Policy for the production build: no network requests
 // of any kind (connect-src 'none'), no external scripts, styles, fonts or images.

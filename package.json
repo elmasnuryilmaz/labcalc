@@ -3,14 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "description": "Browser-only qPCR (ddCt) and MTT/WST-1 viability (IC50) calculators. Data never leaves the browser.",
-  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "reference": "python3 scripts/make_reference.py",
+    "screenshots": "node scripts/screenshots.mjs"
   },
   "dependencies": {
     "jstat": "^1.9.6"
